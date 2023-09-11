@@ -1,0 +1,135 @@
+/* 
+    Document   : style
+    Created on : Apr 21, 2015, 8:19:29 PM
+    Author     : sma
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{
+    word-wrap:break-word;
+}
+a{
+    text-decoration: none;
+}
+.header,.main{
+    width: 100%;
+    float: right;
+    text-align: center;
+}
+.main-child{width: 1000px;margin: 0 auto;}
+.logo-header{
+    margin: 0 auto;
+    width: 1000px;
+    height: 270px;
+}
+.menu-header{
+    margin: 0 auto;
+    width: 998px;
+    text-align: center;
+    height: 30px;
+    border: 1px solid #3300ff;
+}
+.menu-header ul{
+    margin: 0 auto;
+    width: 900px;
+    list-style: none;
+}
+.menu-header ul li,.menu-header ul li a{
+    float: right;
+    text-decoration: none;
+    margin: 0 15px;
+    color: #646464;
+    font-size: 15px;
+    background: #33ff00;
+    height: 30px;
+}
+.menu-header ul li a{
+    width: 100%;
+}
+.menu-header ul li:hover,.menu-header ul li a:hover{
+    color: #ffffff;
+    background: #000;
+}
+.footer{
+    width: 1000px;
+    min-height: 200px;
+    text-align: center;
+    float: right;
+    background: #ccccff;
+}
+.footer-center,.footer-left,.footer-right{
+    width: 33%;
+    float: right;
+}
+.footer-center div,.footer-left div,.footer-right div,.footer-center div a,.footer-left div a,.footer-right div a{
+    width: 100%;
+    margin-top: 4px;
+    height: 30px;
+    color: #000;
+    font-weight: 800;    
+}
+.footer-center div a,.footer-left div a,.footer-right div a{
+    width: 100%;
+}
+.footer-center div a:hover,.footer-left div a:hover,.footer-right div a:hover{
+    background: #000;
+    color: #fff;
+}
+
+.sidebar{
+    float: right;
+    width: 20%;
+    min-height: 500px; 
+    border-left: 2px solid #000;
+}
+.bodys{
+    float: right;
+    width: 79%;
+    min-height: 500px;
+}
+
+.sidebar div{
+    margin: 15px 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.sidebar div:hover{
+    background: #646464;
+}
+
+.login{
+    width: 100%;
+    height: 700px;
+}
+.login_form{
+    width: 50%;
+    float: left;
+}
+.login div{
+    margin-top: 20px ;
+    font-size: 18px;
+}
+.login_form_left{
+    width: 50%;
+    
+    float: left;
+}
+.login_form_right{
+    width: 50%;
+    text-align: left;
+    float: left;
+}
+.img_capcha{
+    margin-top: 20px;
+}
+table{
+    border: 2px solid #000;
+    float: right;
+}
+table tr td{
+    border: 2px solid #000;
+}
